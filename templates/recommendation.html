@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>Calculating the energy efficiency of a smart home</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__text">
+      <h1>Calculate the energy efficiency of your home!</h1>
+      <p>Solve the problem of excessive electricity consumption yourself!</p>
+    </div>
+    <a class="saveup" href="/recommendation">recommendation</a>
+  </header>
+  <main class="saveup">
+    {% block content %}
+    <h1 style="margin-left: 100px;">recommendation</h1>
+    <ol>
+        <li>replace your Incandescent light bulbs with LED bulbs</li>
+        <li>when your not in the room turn off the lights</li>
+        <li>turn off the cooker wenn you are not cooking</li>
+        <li>when you are in the vecation turn off thinks that you dont need <br>
+    maybe the tv or other thinks that you dont need</li>
+        <li>buy only thinks on a or minimum b class</li>
+        <li>tur off your pc or your laptop when dont use it 
+          <li>and turn off the lights wenn sleep</li>
+          <li>dont open the frige so long gust short times</li>
+          <li>and dont put the frige near the stove or oven</li>
+          <li>use more battery and dont use the electricyti from your house</li>
+          <li>heat youre house with water heater and dont with electricyti heater</li>
+        </li>
+    </ol> 
+    {% endblock %}
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>

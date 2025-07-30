@@ -46,6 +46,11 @@ def end(size, lights, device):
 def form():
     return render_template('form.html')
 
+
+@app.route('/recommendation')
+def recommendation():
+    return render_template('recommendation.html')
+
 #Результаты формы
 @app.route('/submit', methods=['POST'])
 def submit_form():
